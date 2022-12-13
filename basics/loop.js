@@ -73,3 +73,18 @@ for (let i = 2; i <= 10; i++) {
       console.log(i);
   } 
 }
+// const arr = [3, 5, 8, 16, 20, 23, 50];
+// const result = [3, ];
+// const data = [5, 10, 'Shopping', 20, 'Homework'];
+
+// // Пишем решение вот тут
+// for (let i = 0; i < data.length; i++) {
+//   if (typeof data[i] == "number") {
+//     data[i] = data[i]*2;
+    
+//   } else {
+//     data[i] += ' done';
+//   }
+
+// }
+// console.log(data);
