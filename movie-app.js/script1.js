@@ -1,4 +1,3 @@
-
 /* Задание на урок:
 
 1) Автоматизировать вопросы пользователю про фильмы при помощи цикла
@@ -16,7 +15,7 @@
 'use strict';
 
 // Код возьмите из предыдущего домашнего задания
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
 
 const personalMovieDB = {
     count: numberOfFilms,
@@ -25,6 +24,7 @@ const personalMovieDB = {
     genres: [],
     privat: false
 };
+
 for (let i = 0; i < 2; i++) {
   const a = prompt('Один из последних просмотренных фильмов?', ''),
         b = prompt('На сколько оцените его?', '');
@@ -49,3 +49,4 @@ if (personalMovieDB.count < 10) {
 }
 
 console.log(personalMovieDB);
+
