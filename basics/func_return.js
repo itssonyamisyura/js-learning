@@ -18,14 +18,14 @@ promotion(res);
 function test() {
   for (let i = 0; i < 5; i++) {
       console.log(i);
-      if(i === 3)   return //when func sees return it ends(undefined)
+      // if(i === 3)   return //when func sees return it ends(undefined)
   }
   console.log("done");
 }
 test();
 
-function doNothing() {};
-console.log(doNothing() === undefined);
+// function doNothing() {};
+// console.log(doNothing() === undefined);
 // func всегда нам что-то возвращает, даже если мы не видим return
 // undefined
 
@@ -54,7 +54,9 @@ const myName = sayHello("Sonya");
 console.log(myName);
 
 
-// 2) Создайте функцию, которая принимает в себя 1 аргумент в виде целого числа и возвращает массив из трех чисел: одно на 1 меньше, сам аргумент, и число на 1 больше.
+// 2) Создайте функцию, которая принимает в себя 1 аргумент в виде целого числа и возвращает массив из трех чисел: 
+// одно на 1 menshe,
+//  сам аргумент и число на 1>
 
 
 function returnNeighboringNumbers(num) {
